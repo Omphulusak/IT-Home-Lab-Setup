@@ -35,7 +35,7 @@ https://learn.microsoft.com/sysinternals/downloads/sysmon
 After downloading Sysmon, extract the files on the Windows 10 virtual machine.
 
 <p align="center">
-<img src="screenshots/sysmon-installation.png" width="850">
+<img src="../screenshots/sysmon-installation.png" width="850">
 </p>
 
 **Figure 1:** Sysmon files extracted on the Windows 10 endpoint.
