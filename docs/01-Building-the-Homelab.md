@@ -15,7 +15,7 @@ The lab currently consists of:
 | Windows Server 2026 | Future Active Directory |
 
 <p align="center">
-<img src="screenshots/lab-overview.png" width="900">
+<img src="../screenshots/lab-overview.png" width="900">
 </p>
 
 **Figure 1:** Oracle VirtualBox Manager showing the virtual machines used in the homelab.
@@ -31,7 +31,7 @@ https://www.virtualbox.org/wiki/Downloads
 Install it and open VirtualBox.
 
 <p align="center">
-<img src="screenshots/lab-overview.png" width="900">
+<img src="../screenshots/lab-overview.png" width="900">
 </p>
 
 **Figure 2:** VirtualBox successfully installed and opened.
@@ -48,7 +48,7 @@ Download the required operating systems.
 | Kali Linux VirtualBox Image | https://www.kali.org/get-kali/#kali-virtual-machines |
 
 <p align="center">
-<img src="screenshots/kali-download-page.png" width="850">
+<img src="../screenshots/kali-download-page.png" width="850">
 </p>
 
 **Figure 3:** Kali Linux VirtualBox image download page.
@@ -70,7 +70,7 @@ My Windows VM configuration:
 - RAM: 4000 MB
 
 <p align="center">
-<img src="screenshots/windows-vm-settings.png" width="850">
+<img src="../screenshots/windows-vm-settings.png" width="850">
 </p>
 
 **Figure 4:** Windows 10 virtual machine settings.
@@ -92,7 +92,7 @@ My Kali VM configuration:
 - Boot device: Hard Disk
 
 <p align="center">
-<img src="screenshots/kali-vm-settings.png" width="850">
+<img src="../screenshots/kali-vm-settings.png" width="850">
 </p>
 
 **Figure 5:** Kali Linux virtual machine settings.
