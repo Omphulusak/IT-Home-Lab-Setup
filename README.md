@@ -15,7 +15,7 @@ Current Lab Environment
 - 🖥️ Windows Server 2026 (Active Directory Lab - In Progress)
 
 <p align="center">
-<img src="screenshots/virtualbox-overview.png" width="900">
+<img src="../screenshots/virtualbox-overview.png" width="900">
 </p>
 
 *Oracle VirtualBox Manager containing the virtual machines used throughout this homelab.*
