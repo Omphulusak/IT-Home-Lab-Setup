@@ -133,26 +133,36 @@ Both machines must be on the same subnet.
 
 ## Step 7 — Test Connectivity
 
-From Kali Linux:
+After configuring the isolated network and assigning static IP addresses, verify that both virtual machines can communicate with each other.
+
+From **Kali Linux**, ping the Windows 10 virtual machine:
 
 ```bash
 ping 192.168.56.20
 ```
 
-From Windows:
+From **Windows 10**, ping the Kali Linux virtual machine:
 
 ```powershell
 ping 192.168.56.10
 ```
 
-Successful replies confirm that the isolated network is working.
+If both commands return successful replies, the isolated VirtualBox network has been configured correctly, and the two virtual machines can communicate with each other.
+
+> **Note:** If the ping requests fail, verify that:
+> - Both virtual machines are connected to the same **Internal Network**.
+> - Static IP addresses are configured correctly.
+> - Windows Firewall is not blocking ICMP Echo Requests.
+> - Both virtual machines are powered on and connected to the network.
 
 ---
 
-## Step 8 — Next Step
+## Step 8 — Next Steps
 
-After building the lab, I installed Sysmon on the Windows 10 machine to improve endpoint logging.
+With the homelab successfully configured and network connectivity verified, the environment is now ready for endpoint monitoring and security analysis.
 
-Continue here:
+The next step in this project is installing **Sysmon (System Monitor)** on the Windows 10 virtual machine. Sysmon enhances Windows event logging by capturing detailed information about process creation, network connections, registry modifications, and other system activities.
 
-[02 - Installing Sysmon](02-Installing-Sysmon.md)
+These logs will later be integrated with security monitoring tools such as **Wazuh** to support alert generation, threat detection, and incident response exercises.
+
+➡ Continue to **[02 - Installing Sysmon](02-Installing-Sysmon.md)**
