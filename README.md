@@ -1,37 +1,92 @@
-#  Cybersecurity Homelab | Windows 10 & Kali Linux
+# 🛡️ Cybersecurity Homelab
 
-This repository documents my personal cybersecurity homelab built using **Oracle VirtualBox**. The lab consists of a **Windows 10** virtual machine and a **Kali Linux** virtual machine configured to simulate real-world attack and defense scenarios in a safe, isolated environment.
+A personal cybersecurity homelab built using **Oracle VirtualBox**, **Windows 10**, and **Kali Linux** to develop hands-on skills in penetration testing, threat detection, Windows security, digital forensics, and Security Operations Center (SOC) workflows.
 
-The purpose of this lab is to gain hands-on experience with cybersecurity concepts, including penetration testing, Windows security, network analysis, threat detection, incident response, and SOC operations.
+This repository documents the entire process of building, configuring, and expanding the lab while showcasing practical cybersecurity projects.
 
-##  Lab Environment
+---
+
+# Lab Overview
+
+Current Lab Environment
+
+- 💻 Windows 10 Workstation
+- 🐉 Kali Linux Attacker Machine
+- 🖥️ Windows Server 2026 (Active Directory Lab - In Progress)
+
+<p align="center">
+<img src="screenshots/virtualbox-overview.png" width="900">
+</p>
+
+*Oracle VirtualBox Manager containing the virtual machines used throughout this homelab.*
+
+---
+
+# Objectives
+
+- Build a professional cybersecurity homelab
+- Practice offensive and defensive security
+- Learn Windows Internals
+- Simulate cyber attacks safely
+- Investigate security alerts
+- Build SOC Analyst skills
+- Learn Detection Engineering
+- Document projects professionally
+
+---
+
+# Technologies
 
 - Oracle VirtualBox
 - Windows 10
 - Kali Linux
+- Windows Server 2026
+- Sysmon
+- Wazuh
+- TheHive
+- Shuffle SOAR
+- VirusTotal
+- MITRE ATT&CK
 
-##  What This Repository Covers
+---
 
-- Virtual machine setup
-- Network configuration
-- Lab documentation
-- Screenshots
-- Security tool installation
-- Attack and defense exercises
-- Future lab expansions
+# Documentation
 
-## Skills Demonstrated
+| Guide | Description |
+|--------|-------------|
+| [Building the Homelab](docs/01-Building-the-Homelab.md) | Build the virtual environment |
+| [Installing Sysmon](docs/02-Installing-Sysmon.md) | Install endpoint telemetry |
+| Windows Hardening | Coming Soon |
+| Wazuh Agent Setup | Coming Soon |
+| Attack Simulations | Coming Soon |
+
+---
+
+# Current Progress
+
+- ✅ Oracle VirtualBox Installed
+- ✅ Windows 10 Installed
+- ✅ Kali Linux Installed
+- ✅ Virtual Networking Configured
+- ✅ Sysmon Installed
+- 🔄 Wazuh Integration
+- 🔄 Active Directory
+- 🔄 Detection Rules
+- 🔄 SOC Automation
+
+---
+
+# Skills Demonstrated
 
 - Virtualization
 - Windows Administration
 - Linux Administration
-- Network Configuration
-- Penetration Testing
-- Blue Team Operations
-- Security Monitoring
+- Endpoint Security
+- Networking
+- Threat Detection
 - Incident Response
 - Documentation
 
 ---
 
-This homelab is continuously updated as I expand my cybersecurity knowledge and build new security projects.
+This homelab continues to evolve as I learn new cybersecurity technologies and complete additional SOC projects.
